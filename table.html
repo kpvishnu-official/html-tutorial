@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<style>
+		table {
+			text-align: center;
+			border-collapse: collapse;
+		}
+		td, th {
+			border: 1px solid black;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Table</h1>
+	<h2>Normal table</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>sl no.</th>
+				<th>name</th>
+				<th>class</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>vishnu</td>
+				<td>computer science</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Sunil</td>
+				<td>computer science</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<h2>Colspan and row span</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>date</th>
+				<th>period 1</th>
+				<th>period 2</th>
+				<th>period 3</th>
+				<th>period 4</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Monday</td>
+				<td>Computer</td>
+				<td>science</td>
+				<td>English</td>
+				<td>Maths</td>
+			</tr>
+			<tr>
+				<td>Tuesday</td>
+				<td colspan="2">Computer</td>
+				<td>English</td>
+				<td>Maths</td>
+			</tr>
+			<tr>
+				<td>Wednesday</td>
+				<td rowspan="2">Computer</td>
+				<td>English</td>
+				<td>Maths</td>
+				<td>Maths</td>
+			</tr>
+			<tr>
+				<td>thursday</td>
+				<td>English</td>
+				<td>Maths</td>
+				<td>Maths</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
