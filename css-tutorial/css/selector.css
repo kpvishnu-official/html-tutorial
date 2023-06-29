@@ -1,0 +1,21 @@
+/** basics.html **/
+.color-brown {
+    color: brown;
+}
+
+/**
+ selectors.html
+
+ three ways of acessing a tag
+**/
+h1 {
+    color: red;
+}
+.c-blue {
+    color: blue;
+}
+#color-brown {
+    color: brown;
+    background-color: aqua;
+    text-align: center;
+}
